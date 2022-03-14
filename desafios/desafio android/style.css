@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: 'idroid';
+        src: url('idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+h1{
+    font-family: 'idroid';
+    text-align: center;
+    color: white;
+    margin: 0;
+    
+}
+h2{
+    font-family: 'idroid';
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #7AA5BF;
+    height: 100;
+}
+header{
+    background-image: linear-gradient(to bottom, #022840, #07598C);
+    width: 100%;
+    height: 10vw;
+    box-shadow:  1px 1px 30px rgba(0, 0, 0, 0.705);
+}
+main{
+    background-color: #f2f2f2c5;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow:  1px 1px 50px rgba(0, 0, 0, 0.705);
+   
+    
+}
+footer{
+    background-color: #f2f2f2be;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.para{
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    width: 17%;
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.644);
+}
+nav{
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 8px;
+}
+.cor{
+    color: #595959;
+}
+p{
+    text-indent: 40px;
+}
+h2{
+    background-image: linear-gradient(to right, #6b6b6b, #5959591c );
+}
+picture{
+    display: block;
+    text-align: center;
+}
+#nobru{
+    text-align: center;
+}
+.dan{
+    color: #022840;
+    font-weight: bolder;
+}
+
+a.dan:hover{
+    color: #7AA5BF;
+}
+iframe{
+    display: block;
+    text-align: center;
+}
+.verde{
+    text-align: center;
+}
+
+.verde > ul{
+    display: inline-block;
+    text-align: justify;
+}
+div{
+    margin: 30px;
+    border-radius: 9px;
+    background-color: #6C868C;
+}
+.negrito{
+    font-weight: bolder;
+    color: #022840;
+}
+.ink{
+    color: #022840 ;
+    font-weight: bolder;
+}
+ a.ink:hover{
+    color: #7AA5BF ;
+}
+header > p{
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+nav > a{
+    
+}
+
+
